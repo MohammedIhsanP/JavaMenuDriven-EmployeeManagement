@@ -47,6 +47,9 @@ public class employee {
                     if(empl.contains(rm)){
                         System.out.println("Employee removed successfully"+empl.remove(rm));
                     }
+                    else{
+                        System.out.println("Check the name again!");
+                    }
                     break;
 
                 case 4:
